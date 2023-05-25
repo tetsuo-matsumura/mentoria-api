@@ -28,6 +28,6 @@ app.listen(port, async () => {
     console.log(`API Mentoria está online em: http://localhost:${port}`)
 
   } catch(error) {
-    
+    console.error(error)
   }
 })
